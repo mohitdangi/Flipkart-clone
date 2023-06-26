@@ -1,0 +1,39 @@
+@media screen and (max-width:1000px) {
+/*     body{
+        background-color: red;
+    } */
+
+    nav{
+        flex-direction: column;
+    }
+
+    .slider{
+        height: 50vh;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input{
+        width: 10vw;
+    }
+
+    .search input::placeholder{
+         margin: 0 0 0 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .card-item img{
+        width: 130px;
+    }
+
+}
